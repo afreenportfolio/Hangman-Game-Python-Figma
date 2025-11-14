@@ -1,2 +1,2 @@
-# Ignore!
-Dummy file
+Ignore!
+Dummy file for images
