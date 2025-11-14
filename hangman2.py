@@ -6,9 +6,9 @@ from pygame.locals import *
 import math
 def load_words(topic):
     if topic.lower()=='a':
-        filename="animals.txt"
+        filename="animals.txt" #Change "animals.txt" to wherever your "animals.txt" is located
     elif topic.lower()=='f':
-        filename="fruits.txt"
+        filename="fruits.txt" #Change "fruits.txt" to wherever your "fruits.txt" is located
     else:
         return None
     try:
@@ -24,22 +24,22 @@ font=pygame.font.Font(None,50)
 big_font=pygame.font.Font(None,200)
 try:
     original_hang_images=[
-        pygame.image.load("Open.png"),
-        pygame.image.load("OpenHead.png"),
-        pygame.image.load("OpenHeadBody.png"),
-        pygame.image.load("OpenHeadBodyLArm.png"),
-        pygame.image.load("OpenHeadBodyBothArms.png"),
-        pygame.image.load("OpenHeadBodyBothArmLLeg.png"),
-        pygame.image.load("OpenFullBody.png")
+        pygame.image.load("Open.png"), #Change "Open.png" to wherever your "Open.png" is located
+        pygame.image.load("OpenHead.png"), #Change "OpenHead.png" to wherever your "OpenHead.png" is located
+        pygame.image.load("OpenHeadBody.png"), #Change "OpenHeadBody.png" to wherever your "OpenHeadBody.png" is located
+        pygame.image.load("OpenHeadBodyLArm.png"), #Change "OpenHeadBodyLArm.png" to wherever your "OpenHeadBodyLArm.png" is located
+        pygame.image.load("OpenHeadBodyBothArms.png"), #Change "OpenHeadBodyBothArms.png" to wherever your "OpenHeadBodyBothArms.png" is located
+        pygame.image.load("OpenHeadBodyBothArmLLeg.png"), #Change "OpenHeadBodyBothArmLLeg" to wherever your "OpenHeadBodyBothArmLLeg" is located
+        pygame.image.load("OpenFullBody.png") #Change "OpenFullBody.png" to wherever your "OpenFullBody.png" is located
     ]
-    original_title_image=pygame.image.load("CloseTitleScreen.png")
-    original_exit_image=pygame.image.load("Exit Screen.png")
-    original_background_image=pygame.image.load("BG.png")
-    original_blank_tile=pygame.image.load("dashes.png")
-    original_splash_image=pygame.image.load("Splash.png")
-    original_gameover_image=pygame.image.load("Game Over Screen.png")
-    original_yes_button=pygame.image.load("yes_button.png")
-    original_no_button=pygame.image.load("no_button.png")
+    original_title_image=pygame.image.load("CloseTitleScreen.png") #Change "CloseTitleScreen.png" to wherever your "CloseTitleScreen.png" is located
+    original_exit_image=pygame.image.load("Exit Screen.png") #Change "Exit Screen.png" to wherever your "Exit Screen.png" is located
+    original_background_image=pygame.image.load("BG.png") #Change "BG.png" to wherever your "BG.png" is located
+    original_blank_tile=pygame.image.load("dashes.png") #Change "dashes.png" to wherever your "dashes.png" is located
+    original_splash_image=pygame.image.load("Splash.png") #Change "Splash.png" to wherever your "Splash.png" is located
+    original_gameover_image=pygame.image.load("Game Over Screen.png") #Change "Game Over Screen.png" to wherever your "Game Over Screen.png" is located
+    original_yes_button=pygame.image.load("yes_button.png") #Change "yes_button.png" to wherever your "yes_button.png" is located
+    original_no_button=pygame.image.load("no_button.png") #Change "no_button.png" to wherever your "no_button.png" is located
 except Exception as e:
     print(e)
     pygame.quit()
