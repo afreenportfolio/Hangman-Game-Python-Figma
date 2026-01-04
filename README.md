@@ -1,7 +1,7 @@
 # Hangman Game
 
-![Type](https://img.shields.io/badge/Type-Technical_Case--Study-7f8c8d) 
-![Status](https://img.shields.io/badge/Status-Archived-grey)
+![Type](https://img.shields.io/badge/Type-Personal_Project-blue) 
+![Status](https://img.shields.io/badge/Status-Completed-green)
 
 This Python-based Hangman game challenges players to guess words letter by letter, with visual feedback and scoring. UI elements like screens and icons were crafted in Figma for a polished look, making it both fun and educational.
 
