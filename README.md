@@ -16,7 +16,7 @@ This Python-based Hangman game challenges players to guess words letter by lette
 2. Design: Figma
 
 ## Installation
-- Clone the repository: `git clone https://github.com/afreenportfolio/hangman-game-python-figma.git`
+- Clone the repository: `git clone https://github.com/afreenportfolio/hangman-game.git`
 - Install dependencies if needed: (Basic Python setup)
 
 ## Usage
